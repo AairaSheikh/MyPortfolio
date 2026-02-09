@@ -69,7 +69,7 @@ export function Footer({ onNavigate }: FooterProps) {
         </div>
         
         <div className="mt-12 pt-8 border-t border-white/10 text-center text-sm text-white/40">
-          <p>© {new Date().getFullYear()} {profile.name}. Built with React, TypeScript, and Tailwind CSS.</p>
+          <p>© {new Date().getFullYear()} {profile.name}.</p>
         </div>
       </div>
     </footer>
